@@ -4,7 +4,7 @@
 引数で指定した画像の左右反転画像を作成するpython3で動作するプログラムです。
 
 ## 2. ソースコード
-'''python
+```python
   #　このプログラムはpython3用です。
   #　あらかじめ pip install pillow で pillow をインストールしておきます。
   from PIL import Image
@@ -22,17 +22,19 @@
   
   #　画像の保存
   img_flip.save(output_image)
-'''
+```
 
 ## 3. 使い方
 ### 3.1. 実行例
 - コマンドラインフォーマット
-  'python3 flip.py <input_image_path> <output_image_path>'
+  `python3 flip.py <input_image_path> <output_image_path>`
 
 - 利用例
-  'python3 flip.py input.jpg output.jpg'
+  `python3 flip.py input.jpg output.jpg`
 
 ### 3.2. 出力結果
 - 以下のように入力画像の左右反転画像が出力されます。
-  | 入力画像(input.jpg) | 出力画像(output.jpg) |
-  | (input.jpg) | (output.jpg) |
+  
+  | **入力画像(input.jpg)** | **出力画像(output.jpg)** |
+  |------------------------|------------------------|
+  | ![](input.jpg) | ![](output.jpg) |
