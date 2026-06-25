@@ -28,11 +28,11 @@
 ### 3.1. 実行例
 - コマンドラインフォーマット
   ```python
-  python3 flip.py <input_image_path> <output_image_path>`
+  python3 flip.py <input_image_path> <output_image_path>
   ```
 - 利用例
   ```python
-  python3 flip.py input.jpg output.jpg`
+  python3 flip.py input.jpg output.jpg
   ```
   
 ### 3.2. 出力結果
